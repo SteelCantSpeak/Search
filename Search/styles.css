@@ -1,0 +1,30 @@
+.engine-links {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the text color from the parent element */
+}
+.engine-links:hover {
+  font-weight: bold;
+}
+
+input[type=text] {
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+#heading {
+  padding-bottom: 10px;
+  font-size: 72px;
+}
+#heading > b {
+  background: -webkit-linear-gradient(left, #ff0000, #FFD800, #00ff00, #00aeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(78, 78, 78);
+}
+#heading > sub {
+  font-size: 18px;
+  margin-left: -10px;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-fill-color: #292929;
+}/*# sourceMappingURL=styles.css.map */
